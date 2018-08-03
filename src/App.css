@@ -1,0 +1,124 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin:0px;
+}
+html{
+  margin:0px;
+}
+.App {
+  text-align: center;
+    width: 32%;
+    margin: 0 auto;
+    background: #a74e1a;
+    margin-top: -15px;
+}
+.app_bgimage{  
+    background-image: url("background-restaurant-menu-9.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.homepage h2{
+  text-transform: uppercase;
+  background: #846435;
+  padding: 20px;
+  opacity: .7;
+  color: #fff;
+}
+ul.list{  
+  margin: 0px;
+  padding: 0px;
+  list-style: none;  
+}
+.list li{
+  text-align: left;
+  padding-left: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000!important;
+}
+
+.searchwrapper input{
+  padding: 11px;
+  width: 70%!important;
+  margin: 0 auto;
+}
+.panel-heading{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #8c410c!important;
+  font-size: 15px;
+}
+
+ .btnSubmit{
+  margin-top: 10px;
+  background: #6f4f1a;
+  border: 0px;
+  padding: 6px 12px;
+  color: #ffff;
+  width: 76%;
+}
+.list-group-item{
+  margin-top: 20px;
+    background: #f5f4f4;
+    float: left;
+    border-bottom: 1px solid #dedede;
+    padding: 10px;
+}
+.leftSection{
+  float: left;
+  width: 65%;
+  text-align: left;
+  font-size: 12px;
+  padding-right: 10px;
+}
+.rightSection{
+  float:left;
+  width:20%;
+  margin-top: 20px;
+}
+.imageRest img{
+  width:141px;
+}
+.list-group{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.list-group-item-heading{
+  color: #73240f;
+    font-size: 13px;
+}
+img.direction {
+  width: 19px;
+  position: relative;
+  top: 5px;
+  left: 7px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

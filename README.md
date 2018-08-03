@@ -1,7 +1,7 @@
 For running the application 
 1. npm Install
-2.npm start 
-3.Open in browser and copy paste the below url:- 
+2. npm start 
+3. Open in browser and copy paste the below url:- 
 http://localhost:3000
 
 
